@@ -14,9 +14,9 @@ Crie cada aula em uma nova branch:
 
 - [x] Aula 1
 - [x] Aula 2
-- [ ] Aula 3
-- [ ] Aula 4
-- [ ] Aula 5
+- [x] Aula 3
+- [x] Aula 4
+- [x] Aula 5
 - [x] Aula 6
 - [ ] Aula 7
 - [ ] Aula 8
