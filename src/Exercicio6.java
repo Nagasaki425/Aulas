@@ -1,8 +1,6 @@
-package aula_02;
-
 import java.util.Scanner;
 
-public class Ativ1 {
+public class Exercicio6 {
     public static void main (String[] agrs){
         Scanner entrada = new Scanner (System.in);
         double lista[] = new double[10];
@@ -22,6 +20,6 @@ public class Ativ1 {
             System.out.printf("Produto %d: R$ %.2f\n", (i + 1), lista[i]);
 
         }
-
+        sc.close();
     }
 }
