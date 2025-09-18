@@ -27,6 +27,6 @@ public class Exercicio3 {
         }else{
             System.out.println("Os valores não formam um triângulo.");
         }
-
+        scanner.close();
     }
 }

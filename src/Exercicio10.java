@@ -11,7 +11,8 @@ public class Exercicio10 {
         int idade;
 
         while (true) {
-            System.out.print("Digite a idade da pessoa (nagativo para encerrar o programa): ");
+            System.out.println("(nagativo para encerrar o programa)");
+            System.out.print("Digite a idade da pessoa: ");
             idade = sc.nextInt();
             
             if (idade < 1){break;}

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CaixaEletronico {
+public class Exercicio5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -24,7 +24,7 @@ public class CaixaEletronico {
             valor = valor % 10;
 
             int nota5 = valor / 5;
-            valor = valor % 5; // sempre vai dar 0, porque já validamos divisível por 5
+            valor = valor % 5; // sempre vai dar 0, porque já validei divisível por 5
 
             System.out.println("Notas a serem entregues:");
             if (nota200 > 0) System.out.println(nota200 + " nota(s) de R$ 200");

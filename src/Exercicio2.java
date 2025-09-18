@@ -12,7 +12,6 @@ public class Exercicio2 {
         int qtd2;
         int qtd3;
 
-        double total;
 
         //item1
         System.out.print("Digite o preço do item 1: ");
@@ -30,8 +29,6 @@ public class Exercicio2 {
         System.out.print("Digite a quantidade do item 3: ");
         qtd3 = scanner.nextInt();
 
-        total = qtd1*preco1 + qtd2*preco2 + qtd3*preco3;
-
         System.out.println("+--------------------------------------+");
         System.out.println("Item \t Qtd \t Unit \t Subtotal");
         System.out.println("1 \t" + qtd1 + "\t" + preco1 + "\t" +(qtd1*preco1));
@@ -39,7 +36,7 @@ public class Exercicio2 {
         System.out.println("3 \t" + qtd3 + "\t" + preco3 + "\t" +(qtd3*preco3));
         System.out.println("+--------------------------------------+");
 
-
+        scanner.close();
 
     }
 }

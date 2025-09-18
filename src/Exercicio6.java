@@ -20,6 +20,6 @@ public class Exercicio6 {
             System.out.printf("Produto %d: R$ %.2f\n", (i + 1), lista[i]);
 
         }
-        sc.close();
+        entrada.close();
     }
 }

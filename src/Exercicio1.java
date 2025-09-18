@@ -22,6 +22,8 @@ public class Exercicio1 {
             System.out.printf("| %-36s |\n", "Telefone: " + cel);
         System.out.println("+--------------------------------------+");
 
+        scanner.close();
+
 
             }
         }
